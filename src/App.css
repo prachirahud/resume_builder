@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 0px) and (max-width:600px) {
+  .Responsive {
+    width: 70%;
+    display: flex;    
+    flex-direction: column;        
+  }
+  .input-field{
+    width: auto;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 827px) {
+  .btnresponsive {
+    position: unset;
+    margin-top: 500px;
+    margin-left: 500px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1600px) {
+  .keyResponsive {
+    width: 50%;
+  }
+}
+
+body {
+  background-image: url('../public/images/BgImg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;   
+}
+
+
